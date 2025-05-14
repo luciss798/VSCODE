@@ -116,13 +116,7 @@ void test02() {
 	delete computer2;
 	cout << "-----------------------" << endl;
 }
-void test03() {
-	computer* computer3 = new computer(new IntelCPU, new LegionVideoCard, new LegionMemory);
-	cout << "第三台电脑开始工作：" << endl;
-	computer3->work();
-	delete computer3;
-	cout << "-----------------------" << endl;
-}
+
 // void test04() {
 // 	computer c = computer(new IntelCPU, new LegionVideoCard, new IntelMemory);
 // 	computer &c4= c;
@@ -136,6 +130,5 @@ int main() {
 	test02();
 	test03();
 	//test04();
-	printf("hello");
 	return 0;
 }
