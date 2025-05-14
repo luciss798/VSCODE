@@ -127,8 +127,7 @@ void test02() {
 // }
 int main() {
 	test01();
-	test02();
+	//test02();
 	//test04();
-	cout<<"hello"<<endl;
 	return 0;
 }
