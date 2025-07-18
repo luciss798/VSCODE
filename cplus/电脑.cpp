@@ -97,7 +97,6 @@ public:
 
 
 
-
 void test01() {
 	//第一台电脑组装
 	CPU* i = new IntelCPU;
